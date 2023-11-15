@@ -7,7 +7,7 @@ app.use(express.urlencoded({extended: true}))
 app.use(express.json())
 app.use(cors())
 
-app.get("/", cors(), async (req, res) =>{
+app.get("/", cors(), async(req, res) =>{
     res.send("This is working")
 })
 
